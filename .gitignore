@@ -129,4 +129,9 @@ dmypy.json
 .pyre/
 
 ## Custom gitignore adaptions.
+
+# Do not version config.txt . 
 config.txt
+
+# Database.
+db
