@@ -17,7 +17,7 @@ And do not worry, the guide looks more frightening than it is, I was just very e
 4) Download the full repository or make a git clone of this project.
 4.1) OPTIONAL: If you want you can edit the password / username in the docker-compose.yml file (If you edit MYSQL_ROOT_PASSWORD, make sure to use the same password for both phpmyadmin and db)
 5) cd to the base directory where you copied / pulled this file in step 4. (you have to use a cli for this: powershell, cmd, shell, ssh to your host device using putty or similar)
-6) Run the docker compose command. (This might take a while, because it installs alpine, python, pip, mysql and phpmyadmin)
+6) Run the docker compose command. There will be errors, because we must set up the database when it is up. For now we ignore the error, but we need the database up and running. (This might take a while, because it installs alpine, python, pip, mysql and phpmyadmin)
 ```bash
 # to keep it running in the background. 
 docker-compose up -d --build 
