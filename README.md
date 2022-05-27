@@ -47,7 +47,7 @@ to open phpmyadmin. This is a browser tool, to interact with your database.
     Click on privileges in the top menu
     Click on "Add user account" at the bottom
     Best is to create a user with the same name as the database so countdown_telegram_bot and then create or think of a new password.
-    Repeat this with the same username and password for hosts local, (every host) and 10.5.0.2, 10.5.0.3, (10.5.0.4 and 10.5.0.10) use the ip addresses in the brackets in case you run into errors
+    Set host to every host (%) and grant all access to just this database (should be automatically chosen, if you used the route database -> privileges, instead of user accounts)
 
 7.7) Import the skeleton database.
     Click on the database again as you started in 7.6.
