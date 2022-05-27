@@ -1,0 +1,14 @@
+{
+	"database":
+	{
+		"host":"10.5.0.10",
+		"user":"countdown_telegram_bot",
+		"password":"ENTERYOURPASSWORD",
+  		"database":"countdown_telegram_bot",
+  		"port":"3306"
+	},
+	"telegram":
+	{
+		"botToken":"ENTERTHEBOTTOKEN_THEBOTFATHERGAVETOYOU"
+	}
+}
